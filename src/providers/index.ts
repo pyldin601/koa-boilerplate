@@ -1,8 +1,7 @@
-import WebServiceProvider from './WebServiceProvider';
 import { Container } from 'inversify';
-import IServiceProvider from '../types/IServiceProvider';
-import Newable from '../types/Newable';
+import { RegisterService } from '../types/RegisterService';
+import registerWebService from './WebServiceProvider';
 
-const providers: Newable<IServiceProvider>[] = [WebServiceProvider];
+const providers: RegisterService[] = [registerWebService];
 
 export default providers;

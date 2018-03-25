@@ -2,8 +2,8 @@ import 'reflect-metadata';
 import { Container } from 'inversify';
 import providers from './providers';
 
-const container = new Container();
+const app = new Container();
 
-providers.forEach(Provider => new Provider().register(container));
+providers.forEach(registerService => registerService(app));
 
-export default container;
+export default app;
