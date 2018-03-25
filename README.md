@@ -1,7 +1,7 @@
-#koa application boilerplate
+# koa application boilerplate
 
 Service-oriented strongly-typed web application boilerplate written on Typescript with InversifyJS IoC container.
 
-![InversifyJS](logo/inversifyjs.png?raw=true | width=100)
-![Typescript](logo/ts.png?raw=true | width=100)
-![KoaJS](logo/koajs.png?raw=true | width=100)
+<img src="logo/inversifyjs.png" alt="InversifyJS" width="200">
+<img src="logo/ts.png" alt="Typescript" width="200">
+<img src="logo/koajs.png" alt="KoaJS" width="200">
